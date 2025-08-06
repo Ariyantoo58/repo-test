@@ -117,7 +117,7 @@ async function syncRepository(payload) {
     console.warn(`[Mirror] Push to client failedd: ${err.message}`);
   }
 }
-//ini adalah repo baru yang detect ya
+//ini adalah repo baru yang detect yaa
 
 async function ensureRemote(repoGit, name, url) {
   const remotes = await repoGit.getRemotes(true);
