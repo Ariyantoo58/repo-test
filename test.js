@@ -110,7 +110,7 @@ async function syncRepository(payload) {
   try {
     await repoGit.push(['--mirror', 'client']);
   } catch (err) {
-    console.warn(`[Mirror] Push to client failed: ${err.message}`);
+    console.warn(`[Mirror] Push to client failedd: ${err.message}`);
   }
 }
 
