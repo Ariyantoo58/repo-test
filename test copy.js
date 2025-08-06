@@ -5,7 +5,7 @@ const { Configuration, OpenAIApi } = require('openai');
 require('dotenv').config();
 
 // ---------------------------------------------------------------------------
-// Test ini indo yaaa
+// Test ini indo yaa
 // OpenAI setup (optional – skip detection if key missing)
 // ---------------------------------------------------------------------------
 const openaiApiKey = process.env.OPENAI_API_KEY;
@@ -117,6 +117,7 @@ async function syncRepository(payload) {
     console.warn(`[Mirror] Push to client failedd: ${err.message}`);
   }
 }
+//ini adalah repo baru yang detect
 
 async function ensureRemote(repoGit, name, url) {
   const remotes = await repoGit.getRemotes(true);
