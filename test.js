@@ -48,6 +48,7 @@ async function syncRepository(payload) {
     console.log(`[Mirror] Cloning new bare mirror for ${repoName}`);
     await git.clone(giteaCloneUrl, repoDir, ['--mirror']);
   }
+  // tes ini saja
 
   const repoGit = simpleGit(repoDir);
   await repoGit.remote(['set-url', 'origin', giteaCloneUrl]);
