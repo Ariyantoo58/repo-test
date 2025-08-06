@@ -28,7 +28,7 @@ if (!fs.existsSync(LOCAL_REPOS_ROOT)) {
   fs.mkdirSync(LOCAL_REPOS_ROOT, { recursive: true });
 }
 
-// test ini code dari sini
+// test ini code dari sinii
 
 /**
  * Mirrors a repository that was just updated on Gitea to the client GitHub.
