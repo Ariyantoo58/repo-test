@@ -28,6 +28,8 @@ if (!fs.existsSync(LOCAL_REPOS_ROOT)) {
   fs.mkdirSync(LOCAL_REPOS_ROOT, { recursive: true });
 }
 
+// test ini code dari sini
+
 /**
  * Mirrors a repository that was just updated on Gitea to the client GitHub.
  * Additionally enforces policy: reject pushes introducing Indonesian comments.
