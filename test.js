@@ -5,7 +5,7 @@ const { Configuration, OpenAIApi } = require('openai');
 require('dotenv').config();
 
 // ---------------------------------------------------------------------------
-// OpenAI setup (optional – skip detection if key missing)
+// OpenAI setup (optional – skip detection if key missing) -- thats fine
 // ---------------------------------------------------------------------------
 const openaiApiKey = process.env.OPENAI_API_KEY;
 let openai = null;
