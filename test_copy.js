@@ -20,7 +20,7 @@ if (openaiApiKey) {
 }
 
 // ---------------------------------------------------------------------------
-// Configuration helpers
+// Configuration helper
 // ---------------------------------------------------------------------------
 const LOCAL_REPOS_ROOT =
   process.env.LOCAL_REPOS_ROOT || path.join(__dirname, '..', '..', 'repos');
