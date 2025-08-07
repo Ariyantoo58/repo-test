@@ -3,3 +3,5 @@ const sipp = () => {
 };
 
 sipp();
+
+// ini harusnya ga bisa di push kan ya
