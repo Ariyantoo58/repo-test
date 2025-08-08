@@ -2,4 +2,4 @@ const data = ()=> {
     console.log("test")
 }
 
-//for testing
+//for testing in this code
